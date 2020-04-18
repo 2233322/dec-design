@@ -1,0 +1,45 @@
+{
+  "name": "dec-design",
+  "version": "1.0.0",
+  "description": "A UI Design Language and React UI library",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config ./lib/webpack.base.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2233322/dec-design.git"
+  },
+  "keywords": [
+    "ui",
+    "react",
+    "component"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/2233322/dec-design/issues"
+  },
+  "homepage": "https://github.com/2233322/dec-design#readme",
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "awesome-typescript-loader": "^5.2.1",
+    "cz-conventional-changelog": "^3.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "react": "0.0.0-experimental-e5d06e34b",
+    "react-dom": "0.0.0-experimental-e5d06e34b",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^7.0.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
